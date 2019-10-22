@@ -32,7 +32,7 @@ while True: # Run forever
         ser1.write((msg+chr(26)).encode())
         sleep(1)
         
-    else if ser2_data == "0013950454":
+    elif ser2_data == "0013950454":
         print("Access granted")
         GPIO.output(11,GPIO.HIGH)
         sleep(1)
